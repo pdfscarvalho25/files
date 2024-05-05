@@ -1,0 +1,25 @@
+/* Para o notebook 1461 x 632*/
+@media (max-width: 1600px) {
+
+    .card {
+        /*padding: 1rem;*/
+        max-width: calc(60rem - 6.75rem);
+        min-width: 11rem;
+
+        /* box-sizing: content-box;*/
+
+        /*  background-color: #8299b0;*/
+        /*  color: var(--text);*/
+    }
+}
+
+
+/*ygor 600 x 1053*/
+/*duda 600 x 952*/
+/*sophia 522 x 911*/
+/*Alcatel 512 x 433*/
+/*LG 512 x 433*/
+
+@media (max-width: 600px) {}
+
+@media (max-width: 320px) {}
