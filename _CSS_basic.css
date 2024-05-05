@@ -1,0 +1,246 @@
+.esconde {
+    display: none !important;
+}
+
+.card {
+    /*padding: 1rem;*/
+
+    margin: auto;
+    /* box-sizing: content-box;*/
+
+    /*  background-color: #8299b0;*/
+    /*  color: var(--text);*/
+    background: #ffffff;
+}
+
+hr {
+    border-top: 2px solid #e40909;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.ativo{
+    background: red;
+}
+
+/*####         card-header        ####*/
+.card-header {
+    display: flex;
+    flex-direction: row;
+    /* o eixo principal será uma linha */
+    justify-content: space-between;
+    min-height: 50px;
+    border-bottom: var(--border-width) solid var(--color-black);
+    padding-right: var(--dez);
+    padding-left: var(--dez);
+    background: #ffffff;
+}
+
+
+.title {
+    align-self: center;
+    font-size: 1.4em;
+}
+
+/*####         card-title         ####*/
+
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.title-card {
+    border-bottom: 1px dotted hsl(240, 80%, 60%);
+    display: flex;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #869fb2;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.title-card-itens {
+    align-self: center;
+}
+
+.title-card img {
+    height: 35px;
+}
+
+.title-card span {
+
+    margin-left: 5px;
+    font-size: 1.4em !important;
+}
+
+
+
+
+.title-card img {
+    height: 35px;
+}
+
+
+
+
+/*####         Card-image         ####*/
+
+.card-image {
+    filter: contrast(100%);
+}
+
+img.resize {
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 13px 27px -5px #32325d40, 0 8px 16px -8px #0000004d, 0 -6px 16px -6px #00000008;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/*####         Card-content         ####*/
+
+.card-content {
+
+    padding-right: var(--dez);
+    padding-left: var(--dez);
+}
+
+.card-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #152c42;
+    font-size: 1.2rem;
+    color: #16324e;
+    line-height: 1.5;
+    padding: 1rem !important;
+    border-radius: 5px;
+}
+
+.card-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(207 161 63/var(--tw-text-opacity));
+    line-height: 56px;
+    margin: 0 0 16px;
+}
+
+.card-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #16324e;
+    line-height: 56px;
+    margin: 0 0 16px;
+}
+
+.card-content h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 56px;
+    margin: 0 0 16px;
+}
+
+.card-content a {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #254699;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.card-content h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    background-color: #fcf8e3;
+    color: #16324e;
+    display: inline-block;
+    margin: 16px 0 0;
+    padding: 2px 10px;
+}
+
+.card-content ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-content li {
+    display: flex;
+    width: 100%;
+    font-size: 1.3rem !important;
+    color: #16324e;
+    line-height: 1.5;
+    font-weight: 200;
+
+    border-bottom: solid 1.5px #ffc107;
+    margin: 1rem auto 0;
+    margin-bottom: 0px;
+    opacity: 1;
+
+
+}
+
+.card-content span {
+    font-size: 1.3rem !important;
+}
+
+.card-content li.coluna {
+
+    justify-content: space-around;
+}
+
+
+
+/*####         Card-more         ####*/
+.card-more {
+    border: 1px solid #152c42;
+    background: #0f1f2f;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1rem !important;
+    border-radius: 5px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*####         Card-youtube-title         ####*/
+
+/*####         Youtube-iframe         ####*/
+
+.youtube-iframe {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.youtube-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*####         Card-video-title         ####*/
+
+/*####         Card-video         ####*/
+
+/*####         Card-audio-title         ####*/
+
+/*####         Card-audio         ####*/
+
+/*####         Footer         ####*/
